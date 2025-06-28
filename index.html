@@ -59,19 +59,20 @@
 
     .hero {
       text-align: center;
+      padding: 6rem 2rem;
     }
 
     .hero img {
-      width: 150px;
-      margin-bottom: 1rem;
+      width: 180px;
+      margin-bottom: 1.5rem;
     }
 
     .hero h1 {
-      font-size: 1.8rem;
-      margin: 1rem 0;
+      font-size: 2.2rem;
+      margin: 1.5rem 0;
     }
 
-    .about, .testimonial, .target {
+    .about, .testimonial, .target, .services {
       display: flex;
       flex-wrap: wrap;
       gap: 2rem;
@@ -96,6 +97,16 @@
       padding-left: 1.5rem;
     }
 
+    .service-box {
+      background: #27b6b3;
+      color: #fff;
+      padding: 2rem;
+      flex: 1 1 300px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
     footer {
       background: #f4f4f4;
       padding: 2rem;
@@ -110,10 +121,27 @@
     <nav>
       <a href="#start">Start</a>
       <a href="#about">Über mich</a>
+      <a href="#leistungen">Leistungen</a>
       <a href="#kontakt">Kontakt</a>
     </nav>
     <a class="cta" href="#kontakt">Jetzt Kontaktieren</a>
   </header>
+
+  <section class="services" id="leistungen">
+    <h2 style="width: 100%; text-align: center; margin-bottom: 2rem;">Leistungen</h2>
+    <div class="service-box">
+      <h3>Rehabilitation</h3>
+      <p>Gezielte Therapie nach Verletzungen für nachhaltige Heilung und Bewegungsfreiheit.</p>
+    </div>
+    <div class="service-box">
+      <h3>Sportphysiotherapie</h3>
+      <p>Individuelle Betreuung für Leistungssteigerung & Prävention im Sport.</p>
+    </div>
+    <div class="service-box">
+      <h3>Trainingsplanung</h3>
+      <p>Effektive Programme für deinen Alltag, Sport oder Rückkehr nach Verletzung.</p>
+    </div>
+  </section>
 
   <section class="hero" id="start">
     <img src="https://via.placeholder.com/150x150?text=Physio" alt="Hero Icon">
